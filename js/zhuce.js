@@ -12,7 +12,7 @@ window.onload = function(){
 		//console.log(strUsername)
 		//console.log(strPassword)
         fengzhuang({
-				status: "login",
+				status: "register",
 				username: strUsername,
 				password: strPassword
 			});
