@@ -1,0 +1,51 @@
+*{margin:0;padding:0px;}
+a{text-decoration: none;}
+body{background: #999;}
+#content{
+	width:500px;height:600px;margin:0 auto;
+	padding-top:20px;
+}
+#imag{
+	width:500px;text-align: center;
+}
+.WithMore{
+	width:500px;height:50px;margin-top:10px;color:#fff;
+	font-weight: bold;
+}
+.WithMore span{
+	display: block;width:80px;height:50px;float: left;line-height: 50px;font-size:15px;
+}
+.WithMore input{
+	width:310px;height:50px;float: left;outline: none;
+	color:#fff;background:#ccc;border:none;
+}
+#code{
+	width:500px;height:50px;margin-top:10px;color:#fff;
+	font-weight: bold;
+}
+#code span{
+	display: block;width:80px;height:34px;float: 	left;line-height: 50px;font-size:15px;
+}
+#code input{
+	width:200px;height:50px;float: left;outline: none;border:none;background:#ccc;
+}
+#code #mah{
+	width:70px;height:35px;border:1px solid #000;float:left;
+	margin:5px 0 0 18px;margin-right:8px;background:#fff;
+}
+#code a{
+	color:#FFF;font-size:13px;
+}
+#agree{
+	width:310px;height:60px;margin-left:80px;
+	line-height: 60px;font-size:14px;color:#fff;
+}
+#agree a{color:blue;}
+#agree span{padding:0 10px;}
+#register{
+	width:310px;height:60px;margin-left:80px;
+}
+#register input{
+	width:310px;height:50px;color:#fff;font-weight: bold;
+	background:#000;outline: none;border:none;
+}

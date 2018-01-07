@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/register.css" />
+		<script src="js/ajax-xiaoming.js"></script>
+		<script src="js/register.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="imag">
+				<img src="img/nlicon.png" />
+			</div>
+			<div class="WithMore">
+				<span>手机号</span>
+				<input id="username"  type="text" placeholder="请输入手机号"/>
+			</div>
+			<div id="code">
+				<span>验证码</span>
+				<input type="text" placeholder="请输入验证码" id="codes"/>
+				<div id="mah"></div>
+				<a href="#" onclick="createCode()">看不清，换一张</a>
+			</div>
+			<div class="WithMore">
+				<span>创建密码</span>
+				<input id="password"  type="password" placeholder="6-20位字符，区分大小写"/>
+			</div>
+			<div class="WithMore">
+				<span>密码确认</span>
+				<input id="passw" type="password" placeholder="请再次确认密码"/>
+			</div>
+			<div id="agree">
+				<input type="checkbox" />
+				<span>同意</span><a href="#">仓良条款</a>
+			</div>
+			<div class="regist">
+				<input type="button"  value="立即注册" id="register"/>
+			</div>
+		</div>
+	</body>
+</html>
+<!--<script>
+	var oUsername = document.getElementById("username")
+	var oPassword = document.getElementById("password")
+	var oRegister = document.getElementById("register")
+	console.log(oUsername)
+	oRegister.onclick = function(){
+		var strUsername = oUsername.value;
+		var strPassword = oPassword.value;
+		
+		ajaxs({
+			//传值：传入一个object的格式对象{
+						// 		json:  
+						// 		method: 
+						// 		cb: 
+						// 		url: 
+				method:"post",
+				url:"http://csit.top/api_user.php",
+				json:{
+					status:"register",
+					username:strUsername,
+					password:strPassword
+				}
+//				cb:function(o){
+//					console.log(o)
+//				}
+		})
+	}
+</script>-->
